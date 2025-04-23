@@ -1,0 +1,117 @@
+2025-04-21 11:52:15,198 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 11:52:15,446 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 11:53:28,916 (INFO) - django.utils.autoreload - /mnt/c/Users/Alireza/Documents/python/storefront2/storefront/settings/common.py changed, reloading.
+2025-04-21 11:53:29,904 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 11:53:30,152 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 11:53:38,446 (INFO) - django.utils.autoreload - /mnt/c/Users/Alireza/Documents/python/storefront2/storefront/settings/common.py changed, reloading.
+2025-04-21 11:53:39,664 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 11:53:39,941 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 11:55:24,723 (INFO) - django.utils.autoreload - /mnt/c/Users/Alireza/Documents/python/storefront2/storefront/settings/dev.py changed, reloading.
+2025-04-21 12:23:33,708 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 12:23:34,012 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 12:23:54,225 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 12:23:54,428 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 13:34:48,507 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 13:34:48,779 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 13:39:11,508 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 13:40:53,027 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 13:43:28,608 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 13:43:45,961 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 13:43:46,144 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 13:45:40,489 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 13:45:40,674 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 13:47:27,621 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 13:47:33,682 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 13:47:40,103 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 13:47:40,279 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 13:48:49,211 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 13:48:49,452 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 13:55:56,436 (INFO) - django.utils.autoreload - /mnt/c/Users/Alireza/Documents/python/storefront2/storefront/settings/common.py changed, reloading.
+2025-04-21 13:55:57,807 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 13:56:14,531 (INFO) - django.utils.autoreload - /mnt/c/Users/Alireza/Documents/python/storefront2/storefront/settings/common.py changed, reloading.
+2025-04-21 13:56:15,427 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 13:56:15,639 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 14:00:55,714 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 14:00:55,925 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 14:06:12,340 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 14:06:12,533 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 14:07:55,639 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 14:07:55,816 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 14:09:06,038 (INFO) - django.utils.autoreload - /mnt/c/Users/Alireza/Documents/python/storefront2/storefront/settings/dev.py changed, reloading.
+2025-04-21 14:09:07,540 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 14:09:07,822 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 14:09:22,785 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 14:09:22,970 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 14:12:36,344 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 14:12:36,558 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 14:14:01,069 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 14:14:01,271 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 14:16:32,190 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 14:16:32,368 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 14:17:27,601 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '172.19.245.83:8000'. You may need to add '172.19.245.83' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '172.19.245.83:8000'. You may need to add '172.19.245.83' to ALLOWED_HOSTS.
+2025-04-21 14:17:27,631 (WARNING) - django.request - Bad Request: /
+2025-04-21 14:17:27,926 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '172.19.245.83:8000'. You may need to add '172.19.245.83' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '172.19.245.83:8000'. You may need to add '172.19.245.83' to ALLOWED_HOSTS.
+2025-04-21 14:17:27,949 (WARNING) - django.request - Bad Request: /favicon.ico
+2025-04-21 14:18:06,805 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '172.19.245.83:8000'. You may need to add '172.19.245.83' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '172.19.245.83:8000'. You may need to add '172.19.245.83' to ALLOWED_HOSTS.
+2025-04-21 14:18:06,845 (WARNING) - django.request - Bad Request: /
+2025-04-21 14:18:07,012 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '172.19.245.83:8000'. You may need to add '172.19.245.83' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/alireza/.local/share/virtualenvs/storefront2-UF4TSyqF/lib/python3.12/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '172.19.245.83:8000'. You may need to add '172.19.245.83' to ALLOWED_HOSTS.
+2025-04-21 14:18:07,066 (WARNING) - django.request - Bad Request: /favicon.ico
+2025-04-21 14:18:40,302 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 14:18:40,598 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 14:23:47,681 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-04-21 14:23:48,215 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-21 14:23:52,621 (WARNING) - django.request - Not Found: /favicon.ico
+2025-04-22 17:50:23,794 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-04-22 17:50:24,626 (WARNING) - django.request - Not Found: /favicon.ico
