@@ -1,8 +1,8 @@
-from store.models import CartItem, Customer, Order, OrderItem, Product, Collection, Review, Cart
+from store.models import CartItem, Customer, Order, OrderItem, Product, Collection, Review, Cart, ProductImage
 from rest_framework import serializers
 from django.db import transaction
 from decimal import Decimal
-from signals import order_created
+from store.signals import order_created
 
 
 class CollectionSerializer(serializers.ModelSerializer):
@@ -12,11 +12,23 @@ class CollectionSerializer(serializers.ModelSerializer):
     products_count = serializers.IntegerField(read_only=True)
 
 
+class ProductImageSerializer(serializers.ModelSerializer):
+    def create(self, validated_data):
+        product_id = self.context['product_id']
+        return ProductImage.objects.create(product_id=product_id, **validated_data)
+
+    class Meta:
+        model = ProductImage
+        fields = ['id', 'image']
+
+
 class ProductSerializer(serializers.ModelSerializer):
+    images = ProductImageSerializer(many=True, read_only=True)
+
     class Meta:
         model = Product
         fields = ['id', 'title', 'slug', 'description', 'inventory',
-                  'unit_price', 'price_with_tax', 'collection']
+                  'unit_price', 'price_with_tax', 'collection', 'images']
     price_with_tax = serializers.SerializerMethodField(
         method_name='calculate_tax')
 
@@ -80,7 +92,7 @@ class AddCartItemSerializer(serializers.ModelSerializer):
         product_id = self.validated_data['product_id']
         quantity = self.validated_data['quantity']
 
-        try:  # in here we if we find this cart item we shoud update it
+        try:  # in here if we find this cart item we shoud update it
             cart_item = CartItem.objects.get(
                 cart_id=cart_id, product_id=product_id)
             cart_item.quantity += quantity

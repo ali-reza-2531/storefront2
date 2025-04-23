@@ -8,8 +8,8 @@ from rest_framework.permissions import IsAuthenticated, AllowAny, IsAdminUser
 from rest_framework import status
 
 from store.permissions import IsAdminOrReadOnly, ViewCustomerHistoryPermission
-from .models import Cart, CartItem, Order, Product, Collection, Review, Customer
-from .serializers import CustomerSerializer, CreateOrderSerializer, AddCartItemSerializer, CartSerializer, OrderSerializer, ProductSerializer, CollectionSerializer, ReviewSerializer, CartIremSerializer, UpdateCartItemSerializer, UpdateOrderSerializer
+from .models import Cart, CartItem, Order, Product, Collection, ProductImage, Review, Customer
+from .serializers import CustomerSerializer, CreateOrderSerializer, AddCartItemSerializer, CartSerializer, OrderSerializer, ProductImageSerializer, ProductSerializer, CollectionSerializer, ReviewSerializer, CartIremSerializer, UpdateCartItemSerializer, UpdateOrderSerializer
 from .filters import ProductFilter
 from .pagination import DefaultPagination
 from .models import OrderItem
@@ -18,7 +18,7 @@ from django.db.models import Count
 
 
 class ProductViewSet(ModelViewSet):
-    queryset = Product.objects.all()
+    queryset = Product.objects.prefetch_related('images').all()
     serializer_class = ProductSerializer
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
     filterset_class = ProductFilter
@@ -144,3 +144,13 @@ class OrderViewSet(ModelViewSet):
         customer_id = Customer.objects.only(
             'id').get(user_id=user.id)
         return Order.objects.filter(customer_id=customer_id)
+
+
+class ProductImageViewSet(ModelViewSet):
+    serializer_class = ProductImageSerializer
+
+    def get_serializer_context(self):
+        return {'product_id': self.kwargs['product_pk']}
+
+    def get_queryset(self):
+        return ProductImage.objects.filter(product_id=self.kwargs['product_pk'])
